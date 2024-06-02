@@ -13,17 +13,18 @@ body {
   display: flex;
   align-items: center;
   position: fixed;
-  background-color: black;
   width: 100%;
 }
 
 .logo h1 {
-  margin-left: -50px;
-  color: green;
+  margin-left: 50px;
+  color:cornflowerblue;
+  
 }
 
 img {
-  width: 160px;
+  width: 120px;
+  height:100px;
 }
 
 header {
@@ -32,23 +33,27 @@ header {
 
 .register-container {
   display: flex;
-  align-items: center;
-justify-content: center;
-  min-height: 100vh;
+   align-items: center;
+   justify-content: center;
+   min-height: 50vh;
   flex-direction: column;
   color: white;
   font-family: sans-serif;
+ 
 }
 form{
 	width:30%;
-	padding: 10px;
+	border: 1px solid palegreen;
+	
 }
 
 .register-container h1 {
   font-family: "Sofia", sans-serif;
   font-size: 40px;
   margin-left: 10px;
-  margin-top: 120px;
+  margin-top: 50px;
+ 
+  
 }
 
 label {
@@ -57,6 +62,7 @@ label {
   padding-top: 10px;
   color: rgb(180, 105, 250);
   margin-bottom: 10px;
+  padding-left: 1.5%;
 }
 
 .register-container input[type="text"],
@@ -67,12 +73,16 @@ label {
   border-radius: 5px;
   border: 1px solid #037c07;
   font-size: 15px;
+
+
 }
 
-.register-container input[type="radio"] {
+.register-container input[type="radio" ] {
   width: 20px;
-  height: 20px;
+  height: 15px;
   margin: 10px;
+  
+  
 }
 
 .register-container input[type="submit"] {
@@ -88,15 +98,23 @@ label {
 }
 
 textarea {
-  width: auto;
+
   width: 100%;
   padding: 10px;
-  height: 80px;
+  height: 50px;
   margin-bottom: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
 }
+form p {
+	padding-left: 1.5%;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 
 form a {
   color: rgb(255, 209, 3);
+  text-decoration: none;
+}
+form a:hover {
+  color: rgb(255, 0, 0);
 }

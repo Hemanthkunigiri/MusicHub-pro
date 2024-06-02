@@ -18,13 +18,26 @@ body {
 }
 
 .head img {
-  height: 200px;
-  width: 200px;
-
+  height: 110px;
+  width: 180px;
+  margin-right:66.8%;
 }
-
+.head a{
+	margin-top: 5%;
+	margin-right: 3%;
+	color: aquamarine;
+	font-family:"Sofia", sans-serif;
+	font-weight: bold;
+	font-size:large;
+    text-decoration: none;
+}
+.head a:hover{
+	color:cornflowerblue;
+	
+}
 .head h1 {
-  padding: 0.7em;
+  
+  margin-right:5%;
   color: rgb(0, 134, 16);
   font-size: 40px;
   font-family: "Sofia", sans-serif;

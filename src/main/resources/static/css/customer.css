@@ -92,6 +92,7 @@ header a{
 	color: white;
 	padding-right: 10px;
 }
+
 header a:hover{
 	color: pink;
 }
@@ -218,6 +219,17 @@ button:hover {
 }
 
 .logout a {
-  color: white;
+  color:white;
   font-size: 20px;
+  padding: 5px;
+  text-decoration: none;
+
+  font-family: "Sofia", sans-serif;
+}
+.logout a:hover {
+  color:white;
+  background-color:green;
+  font-family: "Sofia", sans-serif;
+  
+  
 }
