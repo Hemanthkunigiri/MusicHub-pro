@@ -45,9 +45,8 @@ public class PlaylistController {
 			songService.updateSong(s);			
 		}
 		
-		return "adminHome";
+		return "displayPlaylists";
 	}
-	
 	@GetMapping("/displayPlaylists")
 	public String viewPlaylists(Model model) {
 		

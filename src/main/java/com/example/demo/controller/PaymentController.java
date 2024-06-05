@@ -32,7 +32,7 @@ public class PaymentController {
 	@ResponseBody
 	public String createOrder(HttpSession session) {
 
-		int  amount  = 5000;
+		int  amount  = 500;
 		Order order=null;
 		try {
 			RazorpayClient razorpay=new RazorpayClient("rzp_test_MMd2bgsAvEvjuq", "NJZk8SudDdv40ZtWpczUJIPI");
